@@ -1,23 +1,19 @@
-import React from "react";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import HomeCards from './components/HomeCards'
-import JobListings from "./components/JobListings";
-import ViewAllJobs from "./components/ViewAllJobs";
-
-
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import HomePage from './pages/HomePage';
+import JobsPage from './pages/JobsPage'
+import NotFoundPage from './pages/NotFoundPage';
 const App = () => {
   return (
-    <>
-    <Navbar />
-      <Hero />
-      <HomeCards />
-      
-      <JobListings />
-
-      <ViewAllJobs />
-      
-    </>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/jobs" element={<JobsPage />} />
+        <Route path="*" element={<NotFoundPage />} />
+      </Routes>
+    </Router>
   );
 };
 
