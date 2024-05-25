@@ -53,7 +53,7 @@ const submitForm = async (e) => {
     toast.error("Error adding job: " + error.message);
   }
 };
-
+```
 
 ## Installation and Running the Project
 To install and run the project locally, follow these steps:
