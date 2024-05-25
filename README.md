@@ -5,7 +5,7 @@ The React Jobs Web Application is a platform designed to list, edit, and delete 
 
 
 ## Image
-![React Jobs Web Application](path/to/your/image.png)
+![''](./public/images/image1.png)
 
 
 ## Features
@@ -63,4 +63,4 @@ To install and run the project locally, follow these steps:
 3. Install dependencies: `npm install`
 4. Start the frontend server: `npm run dev`
 4. Start the backend server: `npm run server`
-5. Open your browser and visit [http://localhost:3000](http://localhost:5173/) to view the application.
+5. Open your browser and visit [http://localhost:5173/](http://localhost:5173/) to view the application.
