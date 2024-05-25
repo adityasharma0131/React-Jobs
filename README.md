@@ -61,5 +61,6 @@ To install and run the project locally, follow these steps:
 1. Clone the repository: `git clone <repository-url>`
 2. Navigate to the project directory: `cd react-jobs-web-app`
 3. Install dependencies: `npm install`
-4. Start the development server: `npm start`
-5. Open your browser and visit [http://localhost:3000](http://localhost:3000) to view the application.
+4. Start the frontend server: `npm run dev`
+4. Start the backend server: `npm run server`
+5. Open your browser and visit [http://localhost:3000](http://localhost:5173/) to view the application.
